@@ -1,0 +1,65 @@
+#container {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+  border-radius: 5px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px;
+  background-color: #DEE2E3;
+}
+
+
+button {
+  font-weight: 700;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  background-color: white;
+	text-align: center;
+	line-height: 100px;
+  border-radius: 5px;
+}
+
+.operator:hover, #result:hover {
+  background-color: steelblue;
+}
+
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 800px;
+	width: 800px;
+  font-family: Roboto;
+}
+
+.sys:hover {
+  background-color: #FF4F4F;
+}
+
+body {
+	color: black;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+h1 {
+	color: black;
+	width: 100%;
+	text-align: right;
+	grid-row: 1;
+	grid-column: 1/5;
+	margin: 0;
+}
+
+.button.numpad {
+	background-color: white;
+}
+
+.numpad:hover {
+  background-color: lightgrey;
+}
+
+#display {
+	padding-right: 20px;
+}
